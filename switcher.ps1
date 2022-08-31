@@ -1,0 +1,1 @@
+Start-Job -ScriptBlock { Set-Location "$env:USERPROFILE/Codex/umaru/switcher"; ./.venv/Scripts/activate.ps1; pythonw main.py }
